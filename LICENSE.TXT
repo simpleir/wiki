@@ -1,0 +1,34 @@
+Copyright (c) 2016 simpleir.com
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+****************************************************************************
+****   This project uses the following software without modification:   ****
+****************************************************************************
+
+JUnit 4, available under the Eclipse Public License (EPL) v1.0
+Mockito, available under the MIT license
+The Spring Framework, available under the Apache 2.0 license
+Aspectj, available under the EPL v1.0
+Apache maven, available under the Apache 2.0 license
+The exec-maven-plugin from org.codehaus.mojo, available under the Apache 2.0 license
+
+
+****************************************************************************
+****    This project uses the following software WITH modification:     ****
+****************************************************************************
+
+We use the bliki-core library (a.k.a. Java Wikipedia API (Bliki Engine)), and shadow the class info.bliki.htmlcleaner.TagNode.java.
+As per https://www.openhub.net/p/gwtwiki/licenses, accessed 26 February 2016 at 14:00:00 CST, bliki-core is available under the Eclipse Public License 1.0 and the LGPL.
