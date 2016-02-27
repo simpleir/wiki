@@ -20,9 +20,10 @@ public class App
 //        context.getBean(MediaWikiToPlainTextExtractor.class).run();
 //        context.getBean(PlainTextToInvertedIndexExtractor.class).run();
 //        context.getBean(PlainTextToPositionalIndexExtractor.class).run();
-        context.getBean(GroupIndicesByTermExtractor.class).run();
-        context.getBean(InvertedIndexCondenser.class).run();
+//        context.getBean(GroupIndicesByTermExtractor.class).run();
+//        context.getBean(InvertedIndexCondenser.class).run();
 //        context.getBean(PositionalIndexCondenser.class).run();
+		System.out.println("Installed");
         context.close();
     }
 }

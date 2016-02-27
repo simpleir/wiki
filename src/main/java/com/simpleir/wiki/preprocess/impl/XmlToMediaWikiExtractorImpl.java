@@ -10,8 +10,8 @@ import javax.xml.parsers.SAXParserFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import com.simpleir.wiki.preprocess.WikiDumpSaxHandler;
 import com.simpleir.wiki.preprocess.XmlToMediaWikiExtractor;
-import com.simpleir.wiki.process.WikiDumpSaxHandler;
 
 @Component
 public class XmlToMediaWikiExtractorImpl implements XmlToMediaWikiExtractor

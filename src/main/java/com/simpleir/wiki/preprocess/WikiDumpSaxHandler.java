@@ -1,4 +1,4 @@
-package com.simpleir.wiki.process;
+package com.simpleir.wiki.preprocess;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
